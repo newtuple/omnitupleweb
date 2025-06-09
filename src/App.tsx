@@ -119,6 +119,7 @@ function App() {
                   rotate: [0, 2, -2, 1, -1, 0],
                   transition: { duration: 0.4, type: "tween" },
                 }}
+                onClick={() => setIsBookModalOpen(true)}
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "tween", duration: 0.4 }}
                 className="group bg-gradient-to-r from-[#FF1B6B] to-[#FF4B2B] px-8 py-4 rounded-full flex items-center gap-2 text-white shadow-xl shadow-[#ff1b6b50]/30"
